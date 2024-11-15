@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnagWave - Shop Your Wave</title>
+    <style>
+        /* Basic Reset */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f9f9f9;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #0078ff, #00c6ff);
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigation */
+        nav {
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #0078ff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #0056b3;
+        }
+
+        /* Main Section */
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        main h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #0078ff;
+        }
+
+        main p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: #0078ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background: #0056b3;
+        }
+
+        /* Refunds & FAQs */
+        .info-section {
+            padding: 2rem;
+            background: #ffffff;
+            margin: 2rem auto;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .info-section h3 {
+            margin-bottom: 1rem;
+            color: #0078ff;
+        }
+
+        .info-section p, .info-section li {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+
+        .info-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #0078ff;
+            color: white;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SnagWave</h1>
+        <p>Shop Your Wave, Anytime, Anywhere.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#refunds">Refunds</a>
+        <a href="#faqs">FAQs</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Welcome to SnagWave</h2>
+        <p>Explore our hand-picked selection of trendy and affordable products. Join the wave today!</p>
+        <a href="#shop" class="cta-button">Shop Now</a>
+    </main>
+
+    <section id="refunds" class="info-section">
+        <h3>Refund Policy</h3>
+        <p>Your satisfaction is our priority. If you are not satisfied with your purchase, you may request a refund within 30 days of receiving your item.</p>
+        <p>To initiate a refund, please contact our support team at <a href="mailto:support.snagwave@gmail.com">support.snagwave@gmail.com</a>.</p>
+    </section>
+
+    <section id="faqs" class="info-section">
+        <h3>Frequently Asked Questions</h3>
+        <ul>
+            <li><strong>Q: How long does shipping take?</strong><br>A: Shipping typically takes 7-15 business days.</li>
+            <li><strong>Q: Can I track my order?</strong><br>A: Yes! You will receive a tracking link once your order is shipped.</li>
+            <li><strong>Q: What if my item arrives damaged?</strong><br>A: Please contact us at <a href="mailto:support.snagwave@gmail.com">support.snagwave@gmail.com</a> for assistance.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SnagWave. All rights reserved.</p>
+        <p>Contact us: <a href="mailto:support.snagwave@gmail.com" style="color: white;">support.snagwave@gmail.com</a></p>
+    </footer>
+</body>
+</html>
